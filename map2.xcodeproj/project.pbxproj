@@ -11,6 +11,7 @@
 		E187629227D64F2C002559C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E187629127D64F2C002559C2 /* ContentView.swift */; };
 		E187629427D64F2D002559C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E187629327D64F2D002559C2 /* Assets.xcassets */; };
 		E187629727D64F2D002559C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E187629627D64F2D002559C2 /* Preview Assets.xcassets */; };
+		E18762A327D65009002559C2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18762A227D65009002559C2 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E187629127D64F2C002559C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E187629327D64F2D002559C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E187629627D64F2D002559C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E18762A227D65009002559C2 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "../../Downloads/SwiftUI_2021_Samples 3/sample08/sample08-03/MapLocationManager/MapLocationManager/LocationManager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E187628F27D64F2C002559C2 /* map2App.swift */,
 				E187629127D64F2C002559C2 /* ContentView.swift */,
+				E18762A227D65009002559C2 /* LocationManager.swift */,
 				E187629327D64F2D002559C2 /* Assets.xcassets */,
 				E187629527D64F2D002559C2 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				E187629227D64F2C002559C2 /* ContentView.swift in Sources */,
 				E187629027D64F2C002559C2 /* map2App.swift in Sources */,
+				E18762A327D65009002559C2 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +276,7 @@
 				DEVELOPMENT_TEAM = H4N57XP282;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +306,7 @@
 				DEVELOPMENT_TEAM = H4N57XP282;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
